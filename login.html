@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>latihan menu log-in</title>
+    <style>
+    /*template by: Ravi Akio Dev
+    website create by: M Rangga Pratama*/
+
+      body {
+        background-color: #EAEAEA;
+      }
+      
+      .menu {
+        width: 400px;
+        height: 320px;
+        background-color: white;
+        margin: 20px auto;
+        border: 1px solid black;
+        border-radius: 20px;
+        box-shadow: 5px 5px 8px black;
+      }
+      
+      h1 {
+        text-align: center;
+        margin-top: 10px;
+        color: #501B83;
+      }
+      
+      .login {
+        margin-top: 50px;
+      }
+      
+      .username {
+        text-align: center;
+        font-family: Times New Roman, Sans-Serif;
+        margin-left: 160px;
+      }
+      
+      .username:hover {
+        text-shadow: 1px 0 1px #501B83;
+      }
+      
+      .password {
+        text-align: center;
+        font-family: Times New Roman, Sans-Serif;
+        margin-left: 160px;
+      }
+      
+      .password:hover {
+        text-shadow: 1px 0 1px #501B83;
+      }
+      
+      input {
+        border-radius: 8px;
+      }
+      
+      button {
+        display: block;
+        margin-top: 20px;
+        border-radius: 5px;
+      }
+      
+      button:hover {
+        color: purple;
+      }
+      
+      p, a {
+        padding: 3px;
+      }
+      
+      a {
+        text-decoration: none;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <h1>Log-In</h1>
+    
+    <div class="login">
+      <form action="" method="post" accept-charset="utf-8">
+        <label class="username" for="username">Username</label>
+       <center> <input type="text" name="username" id="username" value="" /></center>
+        
+        <label class="password" for="password">Password</label>
+       <center> <input type="password" name="password" id="password" value="" /></center>
+       
+       <center><button type="submit" name="Login" id="btn-login" onclick="alert('akun belum terdaftar')">Login</button></center>
+      </form>
+      
+      <p>Not have Account?</p>
+      <a href="#" onclick="alert('Server Error! coba lagi nanti')">Register</a>
+    </div>
+    </div>
+  </body>
+</html>
+
